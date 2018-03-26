@@ -15,7 +15,7 @@ const MyApp = () => {
       <Route path="/Twitter" exact component={TwitterFeed} />
       <Route path="/Tacos" exact component={TacosFeed} />
       <Route path="/Tacos/:id" exact component={TacoDetail} />
-      <Route path="/Tacos/special" exact component={SpecialTacoPage} />
+      <Route path="/special" exact component={SpecialTacoPage} />
     </div>
   );
 };

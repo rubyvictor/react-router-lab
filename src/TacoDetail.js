@@ -1,11 +1,9 @@
 import React from "react";
-import SpecialTacoPage from "./SpecialTacoPage";
 import { Redirect } from "react-router-dom";
 
 const TacoDetail = props => {
-    console.log(props.match.params.id)
   if (props.match.params.id === "42") {
-    return <Redirect to="/Tacos/special"/>;
+    return <Redirect to="/special" />;
   } else {
     return (
       <div>
